@@ -1,0 +1,11 @@
+sudo: false
+language: cpp
+compiler:
+  - clang
+  - gcc
+notifications:
+  email:
+    recipients:
+      - jwbecher@drazisil.com
+    on_success: change
+    on_failure: change
