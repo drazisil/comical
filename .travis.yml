@@ -20,3 +20,4 @@ addons:
 before_script:
 - find src -type f -exec sed -i 's/-e \#/\#/g' {} \;
 - find src -type f -exec sed -i 's/-e\ }/\}/g' {} \;
+- patch -p1 -s < comical-wx2.8.patch
