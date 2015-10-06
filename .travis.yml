@@ -16,3 +16,5 @@ addons:
     - python-wxtools wx2.8-i18n 
     - libwxgtk2.8-dev 
     - libgtk2.0-dev
+before_script:
+- "find -r src -type f -name *.h -exec sed -i 's/-e//g' {} \;"
