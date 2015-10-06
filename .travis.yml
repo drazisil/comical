@@ -19,4 +19,4 @@ addons:
     - libgtk2.0-dev
 before_script:
 - find src -type f -exec sed -i 's/-e \#/\#/g' {} \;
-#- find src -type f -exec sed -i 's/-e\}/\}/g' {} \;
+- find src -type f -exec sed -i 's/-e\ }/\}/g' {} \;
