@@ -13,10 +13,10 @@ addons:
   apt:
     packages:
     - python-wxgtk2.8 
-    - python-wxtools wx2.8-i18n 
+    - python-wxtools 
+    - wx2.8-i18n 
     - libwxgtk2.8-dev 
     - libgtk2.0-dev
 before_script:
 - find src -type f -exec sed -i 's/-e \#/\#/g' {} \;
-- find src -type f -exec sed -i 's/-e\}/\}/g' {} \;
-- cat src/open.h
+#- find src -type f -exec sed -i 's/-e\}/\}/g' {} \;
