@@ -18,6 +18,7 @@ addons:
     - libwxgtk2.8-dev 
     - libgtk2.0-dev
 before_script:
+- "echo --version"
 - find src -type f -exec sed -i 's/-e \#/\#/g' {} \;
 - find src -type f -exec sed -i 's/-e\ }/\}/g' {} \;
 - patch -p1 -s < comical-wx2.8.patch
