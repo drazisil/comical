@@ -15,10 +15,14 @@ all: $(OBJS)
 %.h : %.png
 	@echo "Converting" $<
 	@echo "#ifndef _"$*"_png_h" > $@
-	@echo -e "#define _"$*"_png_h\n" >> $@
+	@echo "#define _"$*"_png_h" >> $@
+	@echo "" >> $@
 	@echo "static const unsigned char "$*"_png[] = {" >> $@
 	@hexdump -e "13/1 \"0x%02X, \" \"\n\"" $< | sed 's/0x  ,//g' >> $@
-	@echo -e "};\n\n#endif" >> $@
+	@echo "};" >> $@
+	@echo "" >> $@
+	@echo "" >> $@
+	@echo "#endif" >> $@
 
 %.o : %.cpp
 	$(CC) $(CPPFLAGS) -c -o $*.o $<
