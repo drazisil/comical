@@ -23,5 +23,5 @@ before_script:
 - patch -p1 -s < comical-wx2.8.patch
 script:
 - ./configure && make
-after_sucess:
+after_success:
 - ls -r /home/travis/build/drazisil/comical
