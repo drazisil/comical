@@ -22,8 +22,8 @@ Nifty Features:
 encryption.
 
 What you need to compile from source:
-wxWidgets 2.6.0 or later
-gcc 3.3 or later
+* wxWidgets 2.6.0 or later
+* gcc 3.3 or later
 
 Install:
 ===================
