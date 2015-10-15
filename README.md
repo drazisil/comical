@@ -34,6 +34,7 @@ Acknowledgements:
 ================
 
 Brought to you by: lightstruk, sfogel8108, skaughtie, tizzz
+
 Copied from http://sourceforge.net/projects/comical/ by Drazisil
 
 Cross-platform magic and GUI Widgets provided by:
