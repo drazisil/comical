@@ -9,3 +9,19 @@ notifications:
       - jwbecher@drazisil.com
     on_success: change
     on_failure: change
+addons:
+  apt:
+    packages:
+    - python-wxgtk2.8 
+    - python-wxtools 
+    - wx2.8-i18n 
+    - libwxgtk2.8-dev 
+    - libgtk2.0-dev
+before_script:
+#- find src -type f -exec sed -i 's/-e \#/\#/g' {} \;
+#- find src -type f -exec sed -i 's/-e\ }/\}/g' {} \;
+- patch -p1 -s < comical-wx2.8.patch
+script:
+- ./configure && make
+after_success:
+- ls -r /home/travis/build/drazisil/comical

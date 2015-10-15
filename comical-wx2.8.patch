@@ -1,0 +1,11 @@
+diff -Naur comical-0.8/src/ComicalApp.cpp comical-0.8a/src/ComicalApp.cpp
+--- comical-0.8/src/ComicalApp.cpp	2006-03-03 00:23:15.000000000 -0400
++++ comical-0.8a/src/ComicalApp.cpp	2007-05-29 15:51:17.000000000 -0300
+@@ -28,6 +28,7 @@
+ #include "ComicalApp.h"
+ #include "ComicalFrame.h"
+ #include <wx/log.h>
++#include <wx/icon.h>
+ 
+ #if !defined(__WXMAC__) && !defined(__WXCOCOA__) && !defined(__WXMSW__) && !defined(__WXPM__)
+ #include "../Comical Icons/comical.xpm"

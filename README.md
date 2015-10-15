@@ -1,3 +1,5 @@
+master: [![Build Status](https://travis-ci.org/drazisil/comical.svg?branch=master)](https://travis-ci.org/drazisil/comical) dev: [![Build Status](https://travis-ci.org/drazisil/comical.svg?branch=dev)](https://travis-ci.org/drazisil/comical)
+
 ------------------------------------------------
 Comical - The Comic Book Archive reader
 ------------------------------------------------
@@ -23,7 +25,16 @@ What you need to compile from source:
 wxWidgets 2.6.0 or later
 gcc 3.3 or later
 
+Install:
+===================
+* patch -p1 -s < comical-wx2.8.patch (if using wxwidgets 2.8)
+* ./configure && make
+
 Acknowledgements:
+================
+
+Brought to you by: lightstruk, sfogel8108, skaughtie, tizzz
+Copied from http://sourceforge.net/projects/comical/ by Drazisil
 
 Cross-platform magic and GUI Widgets provided by:
 wxWidgets (http://www.wxwindows.org)
@@ -43,22 +54,9 @@ of modified Unrar source in separate form or as part of other software is
 permitted, provided that it is clearly stated in the documentation and source
 comments that the code may not be used to develop a RAR compatible archiver.
 
--------------------------------------------------------------------------------
-Copyright (c) 2003-2006 James Athey
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+Licence
+=======================
+Please see COPYING
 
 In addition, as a special exception, the author gives permission to link the
 code of his release of Comical with Rarlabs' "unrar" library (or with modified
