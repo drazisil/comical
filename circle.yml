@@ -1,0 +1,6 @@
+test:
+  pre:
+    - patch -p1 -s < comical-wx2.8.patch
+  override:
+    - gcc --version
+    - ./configure && make
