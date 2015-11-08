@@ -1,3 +1,6 @@
+general:
+  artifacts:
+    - "comical"
 dependencies:
   pre:
     - sudo apt-get update
@@ -11,4 +14,3 @@ test:
   override:
     - gcc --version
     - ./configure && make
-    - ls
