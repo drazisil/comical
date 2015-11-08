@@ -1,4 +1,4 @@
-dependancies:
+dependencies:
   pre:
     - apt-get install python-wxgtk2.8 
     - apt-get install python-wxtools 
