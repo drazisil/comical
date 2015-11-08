@@ -1,6 +1,6 @@
 general:
   artifacts:
-    - "comical"
+    - "./comical"
 dependencies:
   pre:
     - sudo apt-get update
