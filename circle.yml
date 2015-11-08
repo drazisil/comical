@@ -11,3 +11,4 @@ test:
   override:
     - gcc --version
     - ./configure && make
+    - ls
