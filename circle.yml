@@ -1,10 +1,11 @@
 dependencies:
   pre:
+    - sudo apt-get autoremove
     - sudo apt-get install python-wxgtk2.8 
     - sudo apt-get install python-wxtools 
-    - sido apt-get install wx2.8-i18n 
-    - sido apt-get install libwxgtk2.8-dev 
-    - sido apt-get install libgtk2.0-dev
+    - sudo apt-get install wx2.8-i18n 
+    - sudo apt-get install libwxgtk2.8-dev 
+    - sudo apt-get install libgtk2.0-dev
 test:
   pre:
     - patch -p1 -s < comical-wx2.8.patch
