@@ -1,3 +1,10 @@
+dependancies:
+  pre:
+    - apt-get install python-wxgtk2.8 
+    - apt-get install python-wxtools 
+    - apt-get install wx2.8-i18n 
+    - apt-get install libwxgtk2.8-dev 
+    - apt-get install libgtk2.0-dev
 test:
   pre:
     - patch -p1 -s < comical-wx2.8.patch
