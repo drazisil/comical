@@ -1,13 +1,14 @@
 dependencies:
   pre:
-    - sudo apt-get -q autoremove
-    - sudo apt-get -q install python-wxgtk2.8 
-    - sudo apt-get -q install python-wxtools 
-    - sudo apt-get -q install wx2.8-i18n 
-    - sudo apt-get -q install libwxgtk2.8-dev 
+    - sudo apt-get autoremove
+    - sudo apt-get install python-wxgtk2.8 
+    - sudo apt-get install python-wxtools 
+    - sudo apt-get install wx2.8-i18n 
+    - sudo apt-get install libwxgtk2.8-dev 
     - sudo apt-get install netbase
     - sudo apt-get install ifupdown
-    - sudo apt-get -q install libgtk2.0-dev
+    - sudo apt-get install upstart-job
+    - sudo apt-get install libgtk2.0-dev
 test:
   pre:
     - patch -p1 -s < comical-wx2.8.patch
