@@ -1,4 +1,4 @@
-master: [![Build Status](https://travis-ci.org/drazisil/comical.svg?branch=master)](https://travis-ci.org/drazisil/comical) dev: [![Build Status](https://travis-ci.org/drazisil/comical.svg?branch=dev)](https://travis-ci.org/drazisil/comical)
+Build status: [![Circle CI](https://circleci.com/gh/drazisil/comical.svg?style=svg)](https://circleci.com/gh/drazisil/comical)
 
 ------------------------------------------------
 Comical - The Comic Book Archive reader
