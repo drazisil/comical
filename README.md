@@ -29,6 +29,7 @@ Install:
 ===================
 * patch -p1 -s < comical-wx2.8.patch (if using wxwidgets 2.8)
 * ./configure && make
+* sudo make install
 
 Acknowledgements:
 ================
