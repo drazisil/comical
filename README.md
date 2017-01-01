@@ -1,4 +1,4 @@
-Build status: [![Circle CI](https://circleci.com/gh/drazisil/comical.svg?style=svg)](https://circleci.com/gh/drazisil/comical)
+Build status: [![Circle CI](https://circleci.com/gh/drazisil/comical.svg?style=shield)](https://circleci.com/gh/drazisil/comical)
 
 ------------------------------------------------
 Comical - The Comic Book Archive reader
